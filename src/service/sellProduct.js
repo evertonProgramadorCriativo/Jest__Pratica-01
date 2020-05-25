@@ -10,6 +10,6 @@ A quantidade vendida pode ser de 1 ou  mais unidades
 
 
  export default function sellProduct  (product, amount) {
-    product.stock -= 1;
+    product.stock -= amount;
     return product;
 }
